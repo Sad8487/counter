@@ -1,0 +1,67 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22222a;
+}
+
+.counter {
+  border: 2px solid #61afdf;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 250px;
+  width: 100%;
+  color: #22222a;
+}
+
+.display {
+  background-color: #61afdf;
+  border-radius: 12px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: rgb(227, 8, 52)
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #61afdf;
+  /* border: none; */
+  border-radius: 5px;
+  padding: 10px;
+  color: #61afdf;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #61afdf;
+  color: #22222a
+}
+
+button:active {
+  background-color: #7bc2ee;
+  border: 2px solid #7bc2ee;
+  color: #22222a
+}
+
+button:disabled {
+  border: 2px solid #515d65;
+  background-color: #515d65;
+  color: #353537;
+  cursor: auto;
+}
